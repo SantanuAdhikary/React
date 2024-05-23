@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+
+.box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.inputData {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputField {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.searchButton {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.searchButton:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.location {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.tempmin_max {
+    font-size: 18px;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
