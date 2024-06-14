@@ -18,7 +18,7 @@ const TempApp = () => {
                 setCity(null);
             }
         } catch (error) {
-            console.error("Error fetching weather data:", error);
+            console.error("Error fetching weather data:", error) ;
             setCity(null);
         }
     };
